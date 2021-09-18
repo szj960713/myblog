@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/biaoqian.ico" />
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <script src="js/time_login.js"></script>
+    <script src="js/varify.js"></script>
+    <script src="js/vue.js"></script>
+    <title>对口令！</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="login">
+            <form action="varify.php" name="login" method="GET">
+                <p id="time_login">"我想想现在几点了"</p><br><br>
+                <span class="sp">口令：</span><input type="text" name="account" id="account"></br><br>
+                <span class="sp">暗号：</span><input type="password" onKeyPress="varify(event)" name="password"
+                    id="password"></br><br><br>
+                <!-- <button onclick="varify()" id="submit">test</button> -->
+                <input type="submit" id="submit" value="进入">
+                <!-- <span id="submit" onclick="joke()">进入</span> -->
+                <span id="register" onclick="joke1()">注册</span>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

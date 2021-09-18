@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "myfont";
+    src: url(../fonts/HongLeiBanShuJianTi-2.ttf);
+}
+
+body{
+    background-image: url(../img/bac.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#login{
+    text-align: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+#time_login{
+    font-size: 40px;
+    color: bisque;
+    font-family: "myfont";
+}
+
+#account{
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+#password{
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.sp{
+    font-family: "myfont";
+    font-size: 20px;
+}
+
+
+#submit{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-color:#d48d77;
+}
+
+#register:hover{
+    background-color: #d48d77;
+}
+
+#register{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+#main{
+    width: auto;
+    height: 600px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
